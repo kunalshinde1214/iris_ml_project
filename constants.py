@@ -10,5 +10,6 @@ MODEL_DIR = Path("models")
 MODEL_FILE = MODEL_DIR / "iris_model.joblib"
 
 #Training_Configation
-TRAIN_SIZE = 0.33
+TEST_SIZE = 0.33
 RANDOM_STATE = 21
+TARGET = "species"
